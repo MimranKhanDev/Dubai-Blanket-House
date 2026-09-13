@@ -29,31 +29,7 @@ A full-stack e-commerce platform built with MERN stack.
 
 ## 📁 Project Structure
 
-...
-
-## 🚦 Getting Started
-
-...
-
-## 📝 API Documentation
-
-...
-
-## 🗄 Database Schema
-
-...
-
-## 🚀 Deployment
-
-...
-
-## 🧪 Testing
-
-...
-
-## 📸 Screenshots
-
-### Frontend Folder Structer
+### Frontend Folder Structure
 
 src/
 ├── api/ # API integration layer
@@ -105,7 +81,7 @@ src/
 │
 └── App.jsx # Main app with routing
 
-### Backend Folder Structer
+### Backend Folder Structure
 
 server/
 ├── src/
@@ -167,6 +143,28 @@ server/
 └── server.js # Entry point
 
 ...
+
+## 🚦 Getting Started
+
+...
+
+## 📝 API Documentation
+
+...
+
+## 🗄 Database Schema
+
+...
+
+## 🚀 Deployment
+
+...
+
+## 🧪 Testing
+
+...
+
+## 📸 Screenshots
 
 ## 🔮 Future Improvements
 
