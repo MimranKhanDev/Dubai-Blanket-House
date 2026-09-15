@@ -1,8 +1,7 @@
+import "dotenv/config"; // must be the FIRST import
 import express from "express";
 import cors from "cors";
-
 const app = express();
-
 // Global Middleware (applied in order)
 app.use(
   cors({
@@ -11,7 +10,6 @@ app.use(
 );
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
 // Health Check Route
 app.get("/health", (req, res) => {
   res.status(200).json({
@@ -19,5 +17,4 @@ app.get("/health", (req, res) => {
     message: "Server is running",
   });
 });
-
 export default app;
